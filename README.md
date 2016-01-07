@@ -10,4 +10,4 @@ To see the demonstration of its characteristic curves, open the SwitchedReluctan
   - Change firing angles (a & B) and see the resulting effect on speed, torque and current.
   - Change the current input from top-left module.
   - Change the model of motor from specific (current) to generic.
-  - Change the construction of motor
+  - Change the construction of motor.
