@@ -5,6 +5,7 @@
 bmax = 1;
 freq = 60;
 w = 2*pi*freq;
+count = 5;          %Number of times demonstration will be run
 
 % Set time
 t = 0:1/6000:1/60;
@@ -20,7 +21,8 @@ Bnet = Baa + Bbb + Bcc;
 circle = 1.5 * (cos(w*t) + 1i*sin(w*t));
 
 % Plot magnitude & direction of resultant vectors
-while 1
+
+for c = 1:count
     for ii = 1:length(t)
 
         plot(circle, 'k');
@@ -37,7 +39,6 @@ while 1
         drawnow;
         hold off;
 
-    end
-    
+    end    
 end
 
