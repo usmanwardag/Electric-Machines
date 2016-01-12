@@ -1,5 +1,5 @@
 % Illustrates the concept of rotating magnetic
-% field.
+% field with 3 set of coils.
 
 % Define constants
 bmax = 1;
